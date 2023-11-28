@@ -12,9 +12,12 @@ import recent8 from "/assets/recent-game/8.jpg";
 
 export default function Cards() {
   return (
-    <div className="grid lg:grid-cols-2 lg:gap-5 justify-items-center">
+    <div className="grid lap:grid-cols-2 lap:gap-5 justify-items-center mob:grid-cols-1 ">
       <div className="pt-28">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-pink-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent1}
@@ -59,7 +62,10 @@ export default function Cards() {
       </div>
 
       <div className="pt-28">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-violet-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent2}
@@ -104,7 +110,10 @@ export default function Cards() {
       </div>
 
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-blue-500 text-white px-6">
+            Adventure
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent3}
@@ -149,7 +158,10 @@ export default function Cards() {
       </div>
 
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-red-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent4}
@@ -193,7 +205,10 @@ export default function Cards() {
         </div>
       </div>
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-violet-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent5}
@@ -238,7 +253,10 @@ export default function Cards() {
       </div>
 
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-blue-500 text-white px-6">
+            Adventure
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent6}
@@ -282,7 +300,10 @@ export default function Cards() {
         </div>
       </div>
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-pink-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent7}
@@ -327,7 +348,10 @@ export default function Cards() {
       </div>
 
       <div className="pt-10">
-        <div className="rounded overflow-hidden shadow-lg max-w-sm">
+        <div className="rounded overflow-hidden shadow-lg max-w-sm relative">
+          <button className="absolute top-0 left-0 p-1 mt-4 ml-4 bg-violet-500 text-white px-6">
+            Racing
+          </button>
           <div className="overflow-hidden">
             <img
               src={recent8}

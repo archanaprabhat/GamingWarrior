@@ -6,7 +6,10 @@ export default function TourCard() {
   return (
     <div className="flex justify-center items-center">
       {/* First Card */}
-      <div className="flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden mr-8">
+      <div className="relative flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden mr-8">
+        <button className="absolute top-0 left-0 p-1 bg-yellow-500 text-white px-6">
+          Premium Tournament
+        </button>
         <img
           src={pic1}
           alt="pic1"
@@ -27,7 +30,10 @@ export default function TourCard() {
       </div>
 
       {/* Second Card */}
-      <div className="flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden ml-8">
+      <div className="relative flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden ml-8">
+        <button className="absolute top-0 left-0 p-1 bg-yellow-500 text-white px-6">
+          Premium Tournament
+        </button>
         <img
           src={pic2}
           alt="pic1"

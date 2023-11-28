@@ -11,7 +11,7 @@ const Review = ({ backgroundImage3 }) => {
       <div className="text-center">
         <div className="py-20 ">
           <button className="bg-pink-600 text-white px-6 py-1">New</button>
-          <h1 className="text-4xl font-bold pt-2">Recent Games</h1>
+          <h1 className="text-4xl font-bold pt-2">Recent Reviews</h1>
         </div>
       </div>
       <ReviewCard />

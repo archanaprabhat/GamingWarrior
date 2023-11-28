@@ -80,8 +80,7 @@ const RecentGames = ({ backgroundImage1 }) => {
                 Suspendisse ut justo tem por, rutrum
               </div>
               <p className="text-gray-600 text-base mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor
-                sit amet, consectetur elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
               <div className="flex items-center">
                 <a
@@ -90,7 +89,7 @@ const RecentGames = ({ backgroundImage1 }) => {
                 >
                   3 Comments
                 </a>
-                <div className="flex space-x-0 items-center ml-40">
+                <div className="flex space-x-0  ml-2 pl-36">
                   <div className="bg-red-600 p-2">
                     <img
                       src={icon1}
@@ -125,8 +124,7 @@ const RecentGames = ({ backgroundImage1 }) => {
                 Suspendisse ut justo tem por, rutrum
               </div>
               <p className="text-gray-600 text-base mb-4">
-                Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor
-                sit amet, consectetur elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
               <div className="flex items-center">
                 <a

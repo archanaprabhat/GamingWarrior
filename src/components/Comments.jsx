@@ -4,7 +4,7 @@ import author2 from "/assets/authors/2.jpg";
 import author3 from "/assets/authors/3.jpg";
 function Comments() {
   return (
-    <div>
+    <div className="pb-10">
       <h4 className="font-bold text-xl pb-10 pt-16">Top Comments</h4>
       <div className="flex flex-col gap-4">
         <div className="flex gap-8 items-center">

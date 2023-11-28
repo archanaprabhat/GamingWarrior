@@ -7,7 +7,7 @@ import New from "./New";
 
 export default function Aside() {
   return (
-    <div className="py-28 px-6">
+    <div className="py-28 px-6 ">
       <div className="pb-20">
         <form action="">
           <div className="relative flex items-center text-gray-500 focus-within:text-gray-600">

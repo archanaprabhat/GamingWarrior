@@ -9,7 +9,7 @@ const FooterImage = ({ footerImage }) => {
   return (
     <div className="pt-10 ">
       <div
-        className="flex flex-row items-center gap-y-2 px-16 "
+        className="flex flex-col mob:flex-col lap:flex-row gap-10   items-center gap-x-4 px-16 pt-6"
         style={{
           backgroundImage: `url(${footerImage})`,
           height: "100vh w-max",
@@ -17,19 +17,24 @@ const FooterImage = ({ footerImage }) => {
       >
         <div>
           <div className="">
-            <img src={logo} className="w-1/2 h-150 pt-16" alt="Logo" />
+            <img src={logo} className="w-3/4 h-full lap:pt-16 " alt="Logo" />
           </div>
 
           <p className="text-white pt-10">
-            Lorem ipsum dolor sit amet, consectetur adipisc ing <br /> ipsum
-            dolor sit ame.
+            Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit
+            ame.
           </p>
 
-          <img src={img} alt="footer-img" className="h-150" />
+          <img
+            src={img}
+            alt="footer-img"
+            className="h-150 hidden  mob:hidden lap:block"
+          />
         </div>
         <Post />
-
-        <Comments1 />
+        <div className="lap:mb-4">
+          <Comments1 />
+        </div>
       </div>
       <End />
     </div>

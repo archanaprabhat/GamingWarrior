@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "/assets/logo.png";
 
 import { NavLink } from "react-router-dom";
+
 export default function Header() {
   return (
-    <div className="bg-black flex flex-row justify-evenly h-full items-center overflow-hidden py-8  border-yellow-500 border-b-2">
+    <div className="bg-black flex flex-row justify-evenly top-0 z-[20] h-full items-center overflow-hidden py-8  border-yellow-500 border-b-2">
       <div className="">
         <img src={logo} className="w-200 h-150" />
       </div>
