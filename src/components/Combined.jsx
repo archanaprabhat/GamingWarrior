@@ -4,7 +4,7 @@ import Aside from "./Aside";
 
 function Combined() {
   return (
-    <div className="flex">
+    <div className="flex flex-col lap:flex-row">
       <div className="w-8/12">
         <Cards />
       </div>

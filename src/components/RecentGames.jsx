@@ -8,7 +8,7 @@ import recent3 from "/assets/recent-game/3.jpg";
 const RecentGames = ({ backgroundImage1 }) => {
   return (
     <div
-      className={`text-black h-[800px] bg-[url('/assets/recent-game-bg.png')] bg-no-repeat bg-cover bg-center bg-blue-50`}
+      className={`text-black h-fit lap:h-[800px] bg-[url('/assets/recent-game-bg.png')] bg-no-repeat bg-cover bg-center bg-blue-50`}
     >
       <img src={backgroundImage1} alt="" />
       <div className="text-center">
@@ -19,7 +19,7 @@ const RecentGames = ({ backgroundImage1 }) => {
       </div>
 
       {/* card section */}
-      <div className="flex flex-row justify-center gap-5">
+      <div className="flex flex-col lap:flex-row justify-center gap-5">
         <div className="item-center">
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
             <div className="overflow-hidden">

@@ -7,9 +7,9 @@ import pic4 from "/assets/features/4.jpg";
 export default function Latest() {
   return (
     <div className="px-12 py-20">
-      <div className="flex flex-row max-w-full flex-shrink-0">
+      <div className="flex flex-col mob:flex-col content-evenly lap:flex-row lap:gap-0 max-w-full ">
         {/* Image 1 */}
-        <div className="group relative">
+        <div className="group relative ">
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="pl-4 ">
             <button className="absolute p-2 pl-4 mt-4 bg-pink-500 text-white px-6">
@@ -36,7 +36,7 @@ export default function Latest() {
         </div>
 
         {/* Image 2 */}
-        <div className="group relative">
+        <div className="relative">
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <button className="absolute top-0 left-0 p-2 mt-4 ml-4 bg-green-500 text-white px-6">
             Strategy

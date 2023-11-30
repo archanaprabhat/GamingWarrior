@@ -7,8 +7,8 @@ import New from "./New";
 
 export default function Aside() {
   return (
-    <div className="py-28 px-6 ">
-      <div className="pb-20">
+    <div className="py-28 w-screen mob:m-4 pr-7 lap:px-6 ">
+      <div className="pb-20 lap:w-1/4">
         <form action="">
           <div className="relative flex items-center text-gray-500 focus-within:text-gray-600">
             <svg
@@ -38,7 +38,7 @@ export default function Aside() {
       </div>
 
       <h4 className="font-bold text-xl pb-10">Latest Posts</h4>
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mob:block">
         <div className="flex gap-4 items-center">
           <div className="max-w">
             <img src={first} alt="" className="h-28" />

@@ -10,7 +10,7 @@ const Hero = ({ backgroundImage }) => {
       }}
     >
       <div className="flex-1 p-4">
-        <div className="ml-8">
+        <div className="ml-8 overflow-hidden">
           <h1 className="text-5xl font-extrabold mb-4 tracking-wider">
             Video Gallery
           </h1>

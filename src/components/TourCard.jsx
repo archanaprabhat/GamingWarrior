@@ -4,19 +4,19 @@ import pic2 from "/assets/tournament/2.jpg";
 
 export default function TourCard() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex flex-col justify-center items-center lap:flex-row mob:flex-col gap-10">
       {/* First Card */}
-      <div className="relative flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden mr-8">
-        <button className="absolute top-0 left-0 p-1 bg-yellow-500 text-white px-6">
+      <div className="relative flex flex-col lap:flex-row bg-black bg-opacity-60 w-full lap:w-1/2 h:1/2 lap:h-72 p-6 overflow-hidden m-8">
+        <button className="absolute top-0 left-0 px-1 py-1 bg-yellow-500 text-white">
           Premium Tournament
         </button>
         <img
           src={pic1}
           alt="pic1"
-          className="max-w-full max-h-full object-cover object-center mr-6 m-5 mt-10"
-          style={{ maxWidth: "70%", maxHeight: "70%" }}
+          className="max-w-full max-h-full object-cover object-center m-5 ml-0 mb-0"
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
-        <div className="flex-1 text-yellow-500 mt-10 text-xl font-semibold">
+        <div className=" text-yellow-500 mt-10 text-xl font-semibold">
           <h3>World Of WarCraft</h3>
           <div className="text-white font-thin text-sm pt-5">
             <ul>
@@ -30,15 +30,15 @@ export default function TourCard() {
       </div>
 
       {/* Second Card */}
-      <div className="relative flex bg-black bg-opacity-60 w-1/2 h-72 p-6 overflow-hidden ml-8">
-        <button className="absolute top-0 left-0 p-1 bg-yellow-500 text-white px-6">
+      <div className="relative flex flex-col lap:flex-row bg-black bg-opacity-60 w-full lap:w-1/2  h:1/2 lap:h-72 p-6 overflow-hidden  m-8">
+        <button className="absolute top-0 left-0  bg-yellow-500 text-white ">
           Premium Tournament
         </button>
         <img
           src={pic2}
           alt="pic1"
-          className="max-w-full max-h-full object-cover object-center mr-6 m-5 mt-10"
-          style={{ maxWidth: "70%", maxHeight: "70%" }}
+          className="max-w-full max-h-full object-cover object-center  m-5 ml-0 mb-0"
+          style={{ maxWidth: "100%", maxHeight: "100%" }}
         />
         <div className="flex-1 text-yellow-500 mt-10 text-xl font-semibold">
           <h3>World Of WarCraft</h3>

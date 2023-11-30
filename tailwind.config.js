@@ -8,7 +8,7 @@ export default {
       // => @media (min-width: 640px) { ... }
       lap: "1024px",
       // => @media (min-width: 1024px) { ... }
-      desk: "1280px",
+      des: "1280px",
       // => @media (min-width: 1280px) { ... }
     },
     extend: {},

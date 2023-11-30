@@ -15,7 +15,7 @@ export default function Marquee() {
       </marquee>
       <div
         className="bg-yellow-500 self-stretch absolute left-0 h-full w-1/3 flex
-      items-center justify-end font-bold text-center pr-28"
+      items-center justify-end font-bold text-center pr-28 hidden lap:block"
       >
         Latest News
       </div>

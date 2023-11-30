@@ -13,7 +13,7 @@ export default function Home() {
     <div>
       <HomeHero backgroundImage={backgroundImage} />
       <Marquee />
-      <Latest />
+      <Latest className="flex flex-col gap-3" />
       <RecentGames /*  backgroundImage={backgroundImage1} */ />
       <Tournament /* backgroundImage={tourImage}  */ />
       <Review />

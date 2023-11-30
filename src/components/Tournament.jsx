@@ -7,8 +7,8 @@ const Tournament = ({ tourImage }) => {
        bg-[url('/assets/pattern.png')]  bg-auto bg-center bg-blue-50 p-4`}
     >
       <img src={tourImage} alt="" />
-      <div className="my-20  ">
-        <button className=" top-0 left-0 p-2 bg-orange-500 text-white px-6">
+      <div className="my-20 relative ">
+        <button className=" absolute top-0 left-0 lap:ml-8 p-1 bg-orange-500 text-white px-6">
           Tournaments
         </button>
 
