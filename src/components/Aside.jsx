@@ -7,8 +7,8 @@ import New from "./New";
 
 export default function Aside() {
   return (
-    <div className="py-28 w-screen mob:m-4 pr-7 lap:px-6 ">
-      <div className="pb-20 lap:w-1/4">
+    <div className="lap:py-28 lap:w-fit  lap:pr-7 lap:px-6 ">
+      <div className="pb-20 lap:w-3/4 w-full">
         <form action="">
           <div className="relative flex items-center text-gray-500 focus-within:text-gray-600">
             <svg

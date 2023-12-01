@@ -4,7 +4,7 @@ const Tournament = ({ tourImage }) => {
   return (
     <div
       className={`text-black h-auto
-       bg-[url('/assets/pattern.png')]  bg-auto bg-center bg-blue-50 p-4`}
+       bg-[url('/assets/pattern.png')]  bg-auto bg-center bg-blue-50  px-3`}
     >
       <img src={tourImage} alt="" />
       <div className="my-20 relative ">

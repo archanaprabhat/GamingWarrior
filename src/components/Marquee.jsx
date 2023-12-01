@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Marquee() {
   return (
-    <div className="bg-black h-24 overflow-hidden flex relative">
+    <div className="bg-black h-24 overflow-hidden flex relative w-full">
       <marquee
         behavior="scroll"
         direction="left"
@@ -15,7 +15,7 @@ export default function Marquee() {
       </marquee>
       <div
         className="bg-yellow-500 self-stretch absolute left-0 h-full w-1/3 flex
-      items-center justify-end font-bold text-center pr-28 hidden lap:block"
+      items-center justify-center font-bold text-center pr-28 hidden lap:block"
       >
         Latest News
       </div>

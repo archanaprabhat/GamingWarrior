@@ -4,7 +4,7 @@ import ReviewCard from "./ReviewCard";
 const Review = ({ backgroundImage3 }) => {
   return (
     <div
-      className={`text-black lap:h-[800px]  lap:bg-[url('/assets/review-bg.png')] bg-no-repeat bg-cover bg-right-top mob:bg-none mob:block mob:min-h-fit `}
+      className={`text-black lap:h-[800px] px-3 lap:bg-[url('/assets/review-bg.png')] bg-no-repeat bg-cover bg-right-top mob:bg-none mob:block mob:min-h-fit `}
     >
       <img src={backgroundImage3} alt="" />
 

@@ -5,7 +5,7 @@ import author3 from "/assets/authors/3.jpg";
 import author4 from "/assets/authors/4.jpg";
 function Comments1() {
   return (
-    <div className="">
+    <div className="mb-2">
       <div className="h-min w-auto ">
         <div className="text-white bg-black bg-opacity-40 p-8  relative border border-gray-600">
           <h4 className="font-bold text-lg pb-6 ">Top Comments</h4>

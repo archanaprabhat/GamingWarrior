@@ -6,8 +6,8 @@ import pic4 from "/assets/features/4.jpg";
 
 export default function Latest() {
   return (
-    <div className="px-12 py-20">
-      <div className="flex flex-col mob:flex-col content-evenly lap:flex-row lap:gap-0 max-w-full ">
+    <div className=" py-20 px-3 ">
+      <div className="flex flex-col mob:flex-col gap-3 lap:flex-row lap:gap-0 max-w-full ">
         {/* Image 1 */}
         <div className="group relative ">
           <div className="absolute inset-0 bg-black opacity-60"></div>
@@ -16,7 +16,11 @@ export default function Latest() {
               New
             </button>
           </div>
-          <img src={pic1} alt="" className="w-full h-full object-cover" />
+          <img
+            src={pic1}
+            alt=""
+            className="w-full object-cover lap:h-96 h-80 object-top mob:w-full"
+          />
           <div className="absolute bottom-0 left-0 p-6 text-white">
             <div className="font-bold text-xl mb-2">
               Suspendisse ut justo tem por, rutrum
@@ -41,7 +45,11 @@ export default function Latest() {
           <button className="absolute top-0 left-0 p-2 mt-4 ml-4 bg-green-500 text-white px-6">
             Strategy
           </button>
-          <img src={pic2} alt="" className="w-full h-full object-cover" />
+          <img
+            src={pic2}
+            alt=""
+            className="w-full object-cover lap:h-96 h-80 object-top mob:w-full"
+          />
           <div className="absolute bottom-0 left-0 p-6 text-white">
             <div className="font-bold text-xl mb-2">
               Suspendisse ut justo tem por, rutrum
@@ -66,7 +74,11 @@ export default function Latest() {
           <button className="absolute p-2 pl-4 mt-4 ml-4 bg-pink-500 text-white px-6">
             New
           </button>
-          <img src={pic3} alt="" className="w-full h-full object-cover" />
+          <img
+            src={pic3}
+            alt=""
+            className="w-full object-cover lap:h-96 h-80 object-top mob:w-full"
+          />
           <div className="absolute bottom-0 left-0 p-6 text-white">
             <div className="font-bold text-xl mb-2">
               Suspendisse ut justo tem por, rutrum
@@ -91,7 +103,11 @@ export default function Latest() {
           <button className="absolute top-0 left-0 p-2  mt-4 ml-4 bg-violet-500 text-white px-6">
             Racing
           </button>
-          <img src={pic4} alt="" className="w-full h-full object-cover" />
+          <img
+            src={pic4}
+            alt=""
+            className="w-full object-cover lap:h-96 h-80 object-center mob:w-full"
+          />
           <div className="absolute bottom-0 left-0 p-6 text-white">
             <div className="font-bold text-xl mb-2">
               Suspendisse ut justo tem por, rutrum

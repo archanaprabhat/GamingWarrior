@@ -10,10 +10,10 @@ import Tournament from "./Tournament";
 import Review from "./Review";
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <HomeHero backgroundImage={backgroundImage} />
       <Marquee />
-      <Latest className="flex flex-col gap-3" />
+      <Latest className="flex flex-col " />
       <RecentGames /*  backgroundImage={backgroundImage1} */ />
       <Tournament /* backgroundImage={tourImage}  */ />
       <Review />

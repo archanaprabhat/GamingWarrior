@@ -4,11 +4,11 @@ import Aside from "./Aside";
 
 function Combined() {
   return (
-    <div className="flex flex-col lap:flex-row">
-      <div className="w-8/12">
+    <div className="flex flex-col lap:flex-row items-center">
+      <div className="lap:w-8/12">
         <Cards />
       </div>
-      <div className="w-4/12">
+      <div className="lap:w-4/12  mt-10">
         <Aside />
       </div>
     </div>

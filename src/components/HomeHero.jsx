@@ -3,15 +3,15 @@ import React from "react";
 const HomeHero = ({ backgroundImage }) => {
   return (
     <div
-      className="bg-cover flex flex-col text-white sm:flex-row bg-center bg-no-repeat h-screen items-left justify-center "
+      className="bg-cover  flex flex-col justify-center text-white  bg-center bg-no-repeat object-cover"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         height: "100vh",
       }}
     >
-      <div className="flex-1 p-4 align-">
-        <div className="ml-8 ">
-          <h1 className="text-5xl mb-2 lap:mb-4 lap:mt-24 mob:mt-10 tracking-wider overflow-hidden">
+      <div className="">
+        <div className="ml-2 ">
+          <h1 className="text-2xl  lap:text-5xl mb-2 lap:mb-4 lap:mt-24 mob:mt-10 tracking-wider overflow-hidden">
             The Best <span className="text-yellow-500"> Games </span> Out There
           </h1>
           <p className=" py-3 lap:py-10 text-xs lap:text-lg">
