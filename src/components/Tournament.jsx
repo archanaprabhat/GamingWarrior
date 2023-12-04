@@ -8,7 +8,7 @@ const Tournament = ({ tourImage }) => {
     >
       <img src={tourImage} alt="" />
       <div className="my-20 relative ">
-        <button className=" absolute top-0 left-0 lap:ml-8 p-1 bg-orange-500 text-white px-6">
+        <button className=" absolute top-0 left-0 lap:ml-8 p-1 bg-orange-500 text-white px-6 ">
           Tournaments
         </button>
 

@@ -19,12 +19,12 @@ const FooterImage = ({ footerImage }) => {
           <div className="">
             <img
               src={logo}
-              className="w-3/4 h-full lap:pt-16 pt-2 "
+              className="w-3/4 h-full lap:pt-16 lap:p-10  m-10 ml-0"
               alt="Logo"
             />
           </div>
 
-          <p className="text-white pt-4">
+          <p className="text-white pt-2 pb-10  lap:pb-0 text-xs">
             Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum dolor sit
             ame.
           </p>

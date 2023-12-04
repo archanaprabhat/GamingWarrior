@@ -6,7 +6,7 @@ import rev4 from "/assets/review/4.jpg";
 
 export default function ReviewCard() {
   return (
-    <div className="flex flex-col mob:flex-col lap:flex-row items-center min-h-screen ">
+    <div className="flex flex-col mob:flex-col lap:flex-row items-center min-h-screen lap:gap-8 justify-evenly lap:mx-10 ">
       {/* Review Card 1 */}
       <div className="relative flex flex-col items-center  w-full mob:w-full lap:w-1/4">
         <div className="text-center w-full">

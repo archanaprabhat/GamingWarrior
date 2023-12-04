@@ -20,7 +20,10 @@ const RecentGames = ({ backgroundImage1 }) => {
 
       {/* card section */}
       <div className="flex flex-col lap:flex-row justify-center gap-5">
-        <div className="item-center">
+        <div className="item-center relative">
+          <button className="absolute p-1  mt-4 ml-4 bg-pink-500 text-white px-5 text-xs">
+            NEW
+          </button>
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
             <div className="overflow-hidden">
               <img
@@ -66,7 +69,10 @@ const RecentGames = ({ backgroundImage1 }) => {
 
         {/* Repeat similar structure for other cards */}
 
-        <div className="item-center">
+        <div className="item-center relative">
+          <button className="absolute p-1  mt-4 ml-4 bg-violet-500 text-white px-5 text-xs">
+            RACING
+          </button>
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
             <div className="overflow-hidden">
               <img
@@ -89,7 +95,7 @@ const RecentGames = ({ backgroundImage1 }) => {
                 >
                   3 Comments
                 </a>
-                <div className="flex space-x-0  ml-2 pl-36">
+                <div className="flex space-x-0 items-center ml-auto">
                   <div className="bg-red-600 p-2">
                     <img
                       src={icon1}
@@ -110,7 +116,10 @@ const RecentGames = ({ backgroundImage1 }) => {
           </div>
         </div>
 
-        <div className="item-center">
+        <div className="item-center relative">
+          <button className="absolute p-1  mt-4 ml-4 bg-blue-400 text-white px-5 text-xs">
+            ADVENTURE
+          </button>
           <div className="rounded overflow-hidden shadow-lg max-w-sm">
             <div className="overflow-hidden">
               <img
@@ -133,7 +142,7 @@ const RecentGames = ({ backgroundImage1 }) => {
                 >
                   3 Comments
                 </a>
-                <div className="flex space-x-0 items-center ml-40">
+                <div className="flex space-x-0 items-center ml-auto">
                   <div className="bg-red-600 p-2">
                     <img
                       src={icon1}

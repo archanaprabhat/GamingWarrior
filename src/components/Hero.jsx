@@ -14,7 +14,7 @@ const Hero = ({ backgroundImage }) => {
           <h1 className="text-2xl lap:text-5xl font-extrabold mb-4 tracking-wider pt-16 lap:pt-60">
             Video Gallery
           </h1>
-          <p>
+          <p className="pt-20 lap:pt-0 text-xs">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             malesuada <br /> lorem maximus mauris scelerisque, at rutrum nulla
             dictum.
